@@ -1,0 +1,12 @@
+Source: ros-dashing-pcl-msgs
+Section: misc
+Priority: extra
+Maintainer: Paul Bovbel <paul@bovbel.com>
+Build-Depends: debhelper (>= 9.0.0), ros-dashing-ament-cmake, ros-dashing-ament-lint-common, ros-dashing-rosidl-default-generators, ros-dashing-sensor-msgs, ros-dashing-std-msgs, ros-dashing-ros-workspace, ros-dashing-rmw-connext-cpp, ros-dashing-rmw-fastrtps-cpp, ros-dashing-rmw-implementation, ros-dashing-rmw-opensplice-cpp, ros-dashing-rosidl-typesupport-connext-c, ros-dashing-rosidl-typesupport-connext-cpp, ros-dashing-rosidl-typesupport-opensplice-c, ros-dashing-rosidl-typesupport-opensplice-cpp
+Homepage: http://wiki.ros.org/pcl_msgs
+Standards-Version: 3.9.2
+
+Package: ros-dashing-pcl-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-dashing-rosidl-default-runtime, ros-dashing-sensor-msgs, ros-dashing-std-msgs, ros-dashing-ros-workspace
+Description: Package containing PCL (Point Cloud Library)-related ROS messages.
