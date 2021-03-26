@@ -1,3 +1,26 @@
+## pcl_msgs (rolling) - 1.0.0-5
+
+The packages in the `pcl_msgs` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --track rolling --rosdistro rolling pcl_msgs` on `Fri, 26 Mar 2021 12:29:39 -0000`
+
+The `pcl_msgs` package was released.
+
+Version of package(s) in repository `pcl_msgs`:
+
+- upstream repository: https://github.com/ros-perception/pcl_msgs
+- release repository: https://github.com/ros2-gbp/pcl_msgs-release.git
+- rosdistro version: `1.0.0-4`
+- old version: `1.0.0-4`
+- new version: `1.0.0-5`
+
+Versions of tools used:
+
+- bloom version: `0.10.3`
+- catkin_pkg version: `0.4.23`
+- rosdep version: `0.20.0`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## pcl_msgs (rolling) - 1.0.0-4
 
 The packages in the `pcl_msgs` repository were released into the `rolling` distro by running `/home/cottsay/.local/bin/bloom-release pcl_msgs -r rolling` on `Fri, 12 Mar 2021 02:27:44 -0000`
