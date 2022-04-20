@@ -1,1 +1,1 @@
-{"base": "6353138", "parent": "debian/rolling/pcl_msgs", "previous": "1ebe71e", "trim": "", "trimbase": ""}
+{"base": "f99464f", "parent": "debian/humble/pcl_msgs", "previous": "96be4cd", "trim": "", "trimbase": ""}
