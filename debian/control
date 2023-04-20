@@ -1,0 +1,12 @@
+Source: ros-iron-pcl-msgs
+Section: misc
+Priority: optional
+Maintainer: Paul Bovbel <paul@bovbel.com>
+Build-Depends: debhelper (>= 9.0.0), ros-iron-ament-cmake, ros-iron-ament-lint-common <!nocheck>, ros-iron-rosidl-default-generators, ros-iron-sensor-msgs, ros-iron-std-msgs, ros-iron-ros-workspace, ros-iron-rosidl-typesupport-fastrtps-c, ros-iron-rosidl-typesupport-fastrtps-cpp
+Homepage: http://wiki.ros.org/pcl_msgs
+Standards-Version: 3.9.2
+
+Package: ros-iron-pcl-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-iron-rosidl-default-runtime, ros-iron-sensor-msgs, ros-iron-std-msgs, ros-iron-ros-workspace
+Description: Package containing PCL (Point Cloud Library)-related ROS messages.
