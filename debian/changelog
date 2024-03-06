@@ -1,0 +1,58 @@
+ros-rolling-pcl-msgs (1.0.0-8noble) noble; urgency=high
+
+  * Trim README
+  * ros2 port of pcl_msgs (#11 <https://github.com/ros-perception/pcl_msgs/issues/11>)
+    * Migrated From ROS1 to ROS2
+    * Update CHANGELOG.rst
+    * Migrated pcl_msgs from ROS1 to ROS2
+    * Updated Readme.md
+    Added Migration changes information and How to build and test information.
+    * Update README.md
+    * Update README.md
+    * Update README.md
+  * Migrated From ROS1 to ROS2 (#10 <https://github.com/ros-perception/pcl_msgs/issues/10>)
+    * Migrated From ROS1 to ROS2
+    * Update CHANGELOG.rst
+    * Migrated pcl_msgs from ROS1 to ROS2
+  * Add service file to update filename
+  * Contributors: Kentaro Wada, Paul Bovbel, Sandip Rakhasiya
+
+ -- Paul Bovbel <paul@bovbel.com>  Mon, 14 Oct 2019 00:00:00 -0000
+
+ros-rolling-pcl-msgs (0.2.0-8noble) noble; urgency=high
+
+  * clean up package.xml
+  * update maintainer info
+  * remove eigen dependency
+  * Merge pull request #1 <https://github.com/ros-perception/pcl_msgs/issues/1> from bulwahn/patch-1
+  * Contributors: Lukas Bulwahn, Paul Bovbel
+
+ -- Paul Bovbel <paul@bovbel.com>  Wed, 09 Apr 2014 00:00:00 -0000
+
+ros-rolling-pcl-msgs (0.1.0-8noble) noble; urgency=high
+
+  * Generate messages into the pcl_msgs namespace rather than the pcl namespace
+
+ -- Paul Bovbel <paul@bovbel.com>  Tue, 09 Jul 2013 00:00:00 -0000
+
+ros-rolling-pcl-msgs (0.0.3-8noble) noble; urgency=high
+
+  * fix deps for messages
+  * Updated for new <buildtool_depend>catkin<...> rule
+
+ -- Paul Bovbel <paul@bovbel.com>  Sat, 15 Dec 2012 00:00:00 -0000
+
+ros-rolling-pcl-msgs (0.0.2-8noble) noble; urgency=high
+
+  * increasing version
+  * ros message generation prefix hack
+
+ -- Paul Bovbel <paul@bovbel.com>  Mon, 26 Nov 2012 18:50:00 -0000
+
+ros-rolling-pcl-msgs (0.0.1-8noble) noble; urgency=high
+
+  * initial commit - pcl ROS messages
+
+ -- Paul Bovbel <paul@bovbel.com>  Mon, 26 Nov 2012 17:48:00 -0000
+
+
