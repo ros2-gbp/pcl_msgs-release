@@ -1,0 +1,12 @@
+Source: ros-kilted-pcl-msgs
+Section: misc
+Priority: optional
+Maintainer: Paul Bovbel <paul@bovbel.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kilted-ament-cmake, ros-kilted-ament-lint-common <!nocheck>, ros-kilted-rosidl-default-generators, ros-kilted-sensor-msgs, ros-kilted-std-msgs, ros-kilted-ros-workspace, ros-kilted-rosidl-typesupport-fastrtps-c, ros-kilted-rosidl-typesupport-fastrtps-cpp
+Homepage: http://wiki.ros.org/pcl_msgs
+Standards-Version: 3.9.2
+
+Package: ros-kilted-pcl-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kilted-rosidl-default-runtime, ros-kilted-sensor-msgs, ros-kilted-std-msgs, ros-kilted-ros-workspace
+Description: Package containing PCL (Point Cloud Library)-related ROS messages.
